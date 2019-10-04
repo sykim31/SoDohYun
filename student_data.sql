@@ -15,6 +15,8 @@ create table student_data
 	enroll_fy bigint not null,
 	sch_code text not null,
 	sch_name text not null,
+	dept_code text not null,
+	dept_name text not null,
 	last_update timestamp without time zone not null default now(),
 	constraint student_pkey primary key(student_id)
 )
